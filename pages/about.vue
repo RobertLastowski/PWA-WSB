@@ -1,8 +1,7 @@
 <!-- STARA GALERIA -->
-
+<!-- 
 <template>
     <div>
-        <TopNav/>
         <h1 class="colorRed">About</h1>
         <button @click="showInfo">Kliknij mnie</button>
         <h1>Gallery</h1>
@@ -22,11 +21,10 @@
 <script>
 import BigImage from '~/components/gallery/bigImage.vue';
 import thumbs from '../components/gallery/thumbs.vue';
-import TopNav from '../components/nav/TopNav.vue';
 
 export default {
   name: 'AboutPage',
-  components: { BigImage, thumbs , TopNav},
+  components: { BigImage, thumbs },
 
   methods: {
     showInfo: () => { 
@@ -52,4 +50,4 @@ export default {
   display: flex;
   flex-direction: row;  
 }
-</style>
+</style> -->

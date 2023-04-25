@@ -1,7 +1,6 @@
 <!-- NOWA DZIALAJACA WEDLUG WYMAGAN GALERIA Z MODALEM -->
 <template>
     <div> 
-      <TopNav/>
       <GalleryComponent/>
 
     </div>
@@ -11,11 +10,10 @@
 <script>
 
 import GalleryComponent from '~/components/gallery/GalleryComponent.vue';
-import TopNav from '../components/nav/TopNav.vue';
 
 export default {
   name: 'GalleryPage',
-  components: { GalleryComponent , TopNav},
+  components: { GalleryComponent},
 }
 </script>
 

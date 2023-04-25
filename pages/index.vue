@@ -1,6 +1,5 @@
 <template>
   <div> 
-    <TopNav/>
     <loginComponent :id="userRobert.id" />
   </div>
 </template>
@@ -10,12 +9,11 @@
 import Customer from '~/components/userpanel/customer.js';
 import LoginJS from '~/components/userpanel/login.js';
 import loginComponent from '~/components/userpanel/loginComponent.vue';
-import TopNav from '../components/nav/TopNav.vue';
 
 export default {
   name: 'IndexPage',
 
-  components: { loginComponent , TopNav},
+  components: { loginComponent },
 
   data(){
     return{
